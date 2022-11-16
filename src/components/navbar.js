@@ -7,7 +7,7 @@ function BasicExample(props) {
   return (
     <Navbar bg="primary" variant="dark">
       <Container>
-        <Navbar.Brand>Admin {props.data}</Navbar.Brand>
+        <Navbar.Brand>Admin Portal {props.data}</Navbar.Brand>
         <Nav className="me-auto adminNav">
           <Link to="/admin-portal/">Home</Link>
           <Link to="/admin-portal/book-list">Books</Link>
